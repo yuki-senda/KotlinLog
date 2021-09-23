@@ -115,18 +115,18 @@ class MainActivity : AppCompatActivity() {
         val q = anf(100,200)
         //val q = fun(x:Int, y:Int):Int{return x + y}(100,200)
 
-        val dog = Dog("ポチ", 3, "")
+        val dog = Dog("ポチ", 3)
         dog.say()
         dog.move()
         Log.d("kotlintest", "犬の名前は" + dog.name + "です。")
         Log.d("kotlintest","犬の年齢は" + dog.age + "歳です。")
 
-        val dog2 = Dog("ハチ", 10, "")
+        val dog2 = Dog("ハチ", 10)
         dog2.say()
         Log.d("kotlintest", "犬の名前は" + dog2.name + "です。")
         Log.d("kotlintest","犬の年齢は" + dog2.age + "歳です。")
 
-        val bigDog = BigDog("ヨーゼフ", 15, "")
+        val bigDog = BigDog("ヨーゼフ", 15)
         bigDog.say()
         Log.d("kotlintest","犬の名前は" + bigDog.name + "です。")
         Log.d("kotlintest", "犬の年齢は" + bigDog.age + "歳です。")
